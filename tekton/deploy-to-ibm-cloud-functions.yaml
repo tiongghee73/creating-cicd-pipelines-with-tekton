@@ -31,6 +31,6 @@ spec:
           ibmcloud plugin list;
           ibmcloud plugin update cloud-functions;
           ibmcloud plugin list;
-          ibmcloud target -o tantghee@sg.ibm.com -s spaceName;
+          ibmcloud target -o USIoT -s spaceName;
           ibmcloud fn deploy -m $(workspaces.source.path)/$(params.path-to-manifest-file);
           ibmcloud fn action get -r helloTekton;
